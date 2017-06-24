@@ -34,7 +34,7 @@ from sklearn import cross_validation
 from bs4 import BeautifulSoup
 
 # Commented by Prady from sklearn import metrics
-import pydotplus
+# Commented by Prady as i was getting error in generating decsion tree diagram import pydotplus
 
 from scipy.cluster.hierarchy import fcluster
 
@@ -76,7 +76,6 @@ def distance(p0, p1):
     return np.linalg.norm(p0 - p1)
     
 kv_pairs_all = {}
-
 # Read teaching files and grab all RadLex terms
 def RSNA_parse3(url):
     
@@ -124,8 +123,9 @@ r2 = requests.post("http://mirc.rsna.org/query", data=payload)
 
 # Convert into a beautifulsoup object
 bbs = BeautifulSoup(r2.text, "lxml")
-corpus = []
 
+corpus = []
+# Prady comment, this particular peice of code is taking a long time to execute, try to optimize for MyPACS
 kv_pairs_all = {}
 for xml in bbs.find_all("a", href = True):
     ter = RSNA_parse3(xml['href'])
@@ -133,7 +133,6 @@ for xml in bbs.find_all("a", href = True):
 
 title_ls = []
 all_words = []
-
 for i in range(len(corpus)):
     # By creating a dictionary I can keep track of the index of teaching file
 
@@ -187,6 +186,7 @@ def TFIDF_generator(w, word_list):
 
 all_tf, all_tfidf = TFIDF_generator(all_w, all_words)
 all_tf.T.to_csv("all_term_freq.csv")
+#cwd = os.getcwd() # C:\Users\prade\Documents\Python Scripts
 
 # Decision Tree to decide # Clusters
 def DTree_Calculate_Accr(df, z):
@@ -331,7 +331,8 @@ for x, tt in enumerate(example):
         print("CHANGE one more")
         
 # Re-define variable
-radlex_term_category_list = pd.read_csv("Radlex.csv")
+# Prady - added parameer encoding to be latin-1 and sep='\s*\t\s*' while reading Radlex.csv file which will take care of encoding and spacing between columns
+radlex_term_category_list = pd.read_csv("Radlex.csv", encoding='latin-1', sep='\s*\t\s*')
 
 term_category_dict = {}
 clus_idx = 1
@@ -432,10 +433,12 @@ for c in range(1, 46):
         f = tree.export_graphviz(treeclf, out_file=f)
         
     os.unlink("all"+str(c)+".dot")
-    
-    dot_data = tree.export_graphviz(treeclf, out_file=None) 
-    graph = pydotplus.graph_from_dot_data(dot_data) 
-    graph.write_pdf("all"+str(c)+".pdf") 
+    #print(treeclf)
+
+    # Prady commented this, see why this graph is not getting generated    
+    #dot_data = tree.export_graphviz(treeclf, out_file=None)
+    #graph = pydotplus.graph_from_dot_data(treeclf) 
+    #graph.write_pdf("all"+str(c)+".pdf") 
     
 all_tf.T.columns[1609]
 
@@ -512,17 +515,19 @@ def BigClusterAnal(tf, tm): # tf = his_tf, ddx_tf, etc
     temp_tf.Membership = tm
     
     # Build a decision tree
-    treeclf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=25, min_impurity_split=0.00000002)
+    treeclf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=25)
+    #treeclf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=25, min_impurity_split=0.00000002)
     treeclf = treeclf.fit(temp_tf.ix[:, temp_tf.columns != 'Membership'], temp_tf['Membership'])
 
     with open("haha_"+str(big_idx)+".dot", 'w') as f:
         f = tree.export_graphviz(treeclf, out_file=f)
 
     os.unlink("haha_"+str(big_idx)+".dot")
-
-    dot_data = tree.export_graphviz(treeclf, out_file=None) 
-    graph = pydotplus.graph_from_dot_data(dot_data) 
-    graph.write_pdf("haha_"+str(big_idx)+".pdf")   
+    
+    # Commented by Prady
+    #dot_data = tree.export_graphviz(treeclf, out_file=None) 
+    #graph = pydotplus.graph_from_dot_data(dot_data) 
+    #graph.write_pdf("haha_"+str(big_idx)+".pdf")   
     
     term_imp = dict(zip(temp_tf.columns, treeclf.feature_importances_))
     term_imp = sorted(term_imp.items(), key = lambda x: x[1], reverse = True) 
