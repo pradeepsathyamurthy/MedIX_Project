@@ -1,4 +1,4 @@
-1. Files
+	1. Files
  - RSNA_TF_ANALYSIS_ALL_CATEGORIES.ipynb : This Python script is used for all RadLex terms analysis under
  	all categories in RSNA. Below is what this code do
   (#) Extract all xml files and store all RadLex terms
