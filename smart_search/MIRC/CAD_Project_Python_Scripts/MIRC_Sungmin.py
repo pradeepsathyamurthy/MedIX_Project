@@ -89,7 +89,6 @@ def RSNA_parse3(url):
     big_title = soup.find_all('h1')[0].text # title of TF
     title = soup.find_all('h2') # This is a title for each category (ddx, findings...)
     title[0] = 'Document'
-    print(title)
 
     temp2 = soup.find_all('div', class_ = "hide")
     
@@ -517,7 +516,6 @@ def BigClusterAnal(tf, tm): # tf = his_tf, ddx_tf, etc
     
     # Build a decision tree
     treeclf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=25)
-    # Commented by Prady as min_impurity_split is not being accepted as a valid attribute    
     #treeclf = tree.DecisionTreeClassifier(criterion='entropy', min_samples_split=25, min_impurity_split=0.00000002)
     treeclf = treeclf.fit(temp_tf.ix[:, temp_tf.columns != 'Membership'], temp_tf['Membership'])
 
