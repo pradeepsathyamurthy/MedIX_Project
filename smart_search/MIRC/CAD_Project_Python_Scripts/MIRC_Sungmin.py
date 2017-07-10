@@ -3,7 +3,7 @@
 Created on Wed Jun 21 14:44:34 2017
 
 @author: Sungmin Script for MIRC Data
-@reproduced by : Pradeep Sathyamurhty on Wed Jun 21 14:44:34 2017
+@reproduced by : Pradeep Sathyamurthy on Wed Jun 21 14:44:34 2017
 """
 
 import numpy as np
