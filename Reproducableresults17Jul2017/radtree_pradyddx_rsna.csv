@@ -1,0 +1,224 @@
+L0,L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,size,covered
+6RadLex entity,procedure,imaging procedure,diffusion,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,modality descriptor,functional,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,modality descriptor,intervention,,,,,,,,1,0
+2RadLex entity,procedure,treatment,surgical procedure,cardiovascular surgery,atherectomy,,,,,,1,0
+1RadLex entity,procedure,treatment,repair,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,width descriptor,narrow,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,endotracheal,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intra-abdominal,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,anatomically-related descriptor,intra-articular,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,anatomically-related descriptor,intracerebral,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intraluminal,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,anatomically-related descriptor,intramedullary,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intraperitoneal,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intrapulmonary,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,anatomically-related descriptor,intratesticular,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,anatomically-related descriptor,intrauterine,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,anatomically-related descriptor,intraventricular,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,anatomically-related descriptor,nasal,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,oral,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,rectal,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,anatomically-related descriptor,respiratory,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,anatomically-related descriptor,transplacental,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,anatomically-related descriptor,ureteral,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,anatomically-related descriptor,urethral,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,anatomically-related descriptor,vaginal,,,,,,,,1,0
+3RadLex entity,property,interventional outcome,therapeutic response,regression,,,,,,,1,0
+1RadLex entity,non-anatomical substance,chemical element,lithium,,,,,,,,1,0
+1RadLex entity,non-anatomical substance,chemical element,oxygen,,,,,,,,1,0
+7RadLex entity,non-anatomical substance,chemical element,calcium,,,,,,,,1,0
+1RadLex entity,non-anatomical substance,chemical element,copper,,,,,,,,1,0
+2RadLex entity,non-anatomical substance,chemical element,silver,,,,,,,,1,0
+1RadLex entity,non-anatomical substance,chemical element,barium,,,,,,,,1,0
+3RadLex entity,property,measurement type,pressure,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,flow direction descriptor,retrograde,,,,,,,,1,0
+58RadLex entity,Radlex descriptor,normality descriptor,normal,,,,,,,,1,0
+42RadLex entity,Radlex descriptor,aggressiveness descriptor,benign,,,,,,,,1,0
+16RadLex entity,Radlex descriptor,aggressiveness descriptor,malignant,,,,,,,,1,0
+2RadLex entity,procedure,treatment,surgical procedure,transplantation,,,,,,,1,0
+1RadLex entity,procedure,treatment,surgical procedure,spleen surgery,splenectomy,,,,,,1,0
+9RadLex entity,property,teaching descriptor,representativeness,typical,,,,,,,1,0
+13RadLex entity,property,teaching descriptor,representativeness,atypical,,,,,,,1,0
+10RadLex entity,Radlex descriptor,normality descriptor,abnormal,,,,,,,,1,0
+18RadLex entity,Radlex descriptor,quantity descriptor,present,,,,,,,,1,0
+9RadLex entity,Radlex descriptor,quantity descriptor,absent,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,modality descriptor,attenuation,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,thickness descriptor,thick,,,,,,,,1,0
+3RadLex entity,property,phase,,,,,,,,,1,0
+1RadLex entity,property,function,,,,,,,,,1,0
+1RadLex entity,property,morphology,,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,certainty descriptor,probably,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,certainty descriptor,possibly,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,regional,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,spiculated,,,,,,,,1,0
+6RadLex entity,Radlex descriptor,status descriptor,marked,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,speed descriptor,rapid,,,,,,,,1,0
+7RadLex entity,Radlex descriptor,temporal descriptor,persistent,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,plateau,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,morphologic descriptor,angular,,,,,,,,1,0
+13RadLex entity,Radlex descriptor,patient descriptor,human life stage descriptor,neonatal,,,,,,,1,0
+1RadLex entity,property,structure,,,,,,,,,1,0
+25RadLex entity,Radlex descriptor,status descriptor,increased,,,,,,,,1,0
+6RadLex entity,Radlex descriptor,status descriptor,decreased,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,location descriptor,laterality,unilateral,,,,,,,1,0
+1RadLex entity,Radlex descriptor,size descriptor,diminished,,,,,,,,1,0
+23RadLex entity,Radlex descriptor,composition descriptor,turbidity descriptor,clear,,,,,,,1,0
+2RadLex entity,Radlex descriptor,status descriptor,advanced,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,location descriptor,anterolateral,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,bowed,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,color descriptor,brown,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,concave,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,certainty descriptor,definite,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,temporal descriptor,delayed,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,status descriptor,inadequate,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,physiological condition descriptor,intact,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intertarsal,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,certainty descriptor,known,,,,,,,,1,0
+13RadLex entity,Radlex descriptor,location descriptor,lateral,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,composition descriptor,layered,,,,,,,,1,0
+3RadLex entity,process,biological process,metabolism,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,multilobulated,,,,,,,,1,0
+7RadLex entity,Radlex descriptor,color descriptor,white,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,status descriptor,progressive,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,certainty descriptor,suspected,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,certainty descriptor,uncertain,,,,,,,,1,0
+31RadLex entity,Radlex descriptor,anatomically-related descriptor,femoral,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,composition descriptor,noncalcified,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,orientation descriptor,perpendicular,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,patient descriptor,human life stage descriptor,premature,,,,,,,1,0
+1RadLex entity,clinical finding,pathophysiologic finding,body-system-specific disorder,disorder of immune function,allergy,,,,,,1,0
+2RadLex entity,procedure,treatment,chemotherapy,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,location descriptor,contralateral,,,,,,,,1,0
+19RadLex entity,Radlex descriptor,anatomically-related descriptor,septal,,,,,,,,1,0
+6RadLex entity,Radlex descriptor,anatomically-related descriptor,ulnar,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,anatomically-related descriptor,dural,,,,,,,,1,0
+18RadLex entity,Radlex descriptor,quality descriptor,diagnostic,,,,,,,,1,0
+1RadLex entity,property,feature,,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,certainty descriptor,suggestive,,,,,,,,1,0
+1RadLex entity,property,measurement type,angle,,,,,,,,1,0
+1RadLex entity,procedure,imaging procedure,babygram,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,density descriptor,chondroid,,,,,,,,1,0
+6RadLex entity,Radlex descriptor,density descriptor,lucent,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,density descriptor,lytic,,,,,,,,1,0
+20RadLex entity,Radlex descriptor,anatomically-related descriptor,cortical,,,,,,,,1,0
+10RadLex entity,Radlex descriptor,location descriptor,upper,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,location descriptor,lower,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,generalized descriptor,low,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,generalized descriptor,high,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,location descriptor,external,,,,,,,,1,0
+18RadLex entity,Radlex descriptor,elasticity descriptor,soft,,,,,,,,1,0
+9RadLex entity,Radlex descriptor,anatomically-related descriptor,vascular,,,,,,,,1,0
+1RadLex entity,object,foreign body,bezoar,phytobezoar,,,,,,,1,0
+4RadLex entity,object,medical object,medical device,implantable device,orthopedic device,external device,sling,,,,1,0
+1RadLex entity,object,medical object,medical device,implantable device,orthopedic device,external device,splint,,,,1,0
+5RadLex entity,object,medical object,medical device,surgical implement,sponge,,,,,,1,0
+2RadLex entity,object,foreign body,missile,bullet,,,,,,,1,0
+4RadLex entity,Radlex descriptor,patient descriptor,gender,female,,,,,,,1,0
+6RadLex entity,Radlex descriptor,disease origin descriptor,congenital,genetic,hereditary,,,,,,1,0
+10RadLex entity,Radlex descriptor,disease origin descriptor,congenital,acquired,developmental,,,,,,1,0
+38RadLex entity,Radlex descriptor,disease origin descriptor,idiopathic,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,disease origin descriptor,iatrogenic,,,,,,,,1,0
+60RadLex entity,Radlex descriptor,status descriptor,severe,,,,,,,,1,0
+15RadLex entity,Radlex descriptor,aggressiveness descriptor,aggressive,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,aggressiveness descriptor,invasive,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,status descriptor,limited,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,status descriptor,incomplete,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,status descriptor,partial,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,status descriptor,complete,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,status descriptor,major,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,segmental,,,,,,,1,0
+1RadLex entity,Radlex descriptor,location descriptor,subsegmental,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,diffuse,,,,,,,1,0
+21RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,focal,,,,,,,1,0
+10RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,multifocal,,,,,,,1,0
+51RadLex entity,Radlex descriptor,temporal descriptor,chronic,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,temporal descriptor,reversible,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,temporal descriptor,previous,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,temporal descriptor,residual,,,,,,,,1,0
+110RadLex entity,Radlex descriptor,composition descriptor,cystic,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,composition descriptor,serous,,,,,,,,1,0
+20RadLex entity,Radlex descriptor,composition descriptor,solidness descriptor,solid,,,,,,,1,0
+7RadLex entity,Radlex descriptor,composition descriptor,hemorrhagic,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,composition descriptor,mucinous,,,,,,,,1,0
+13RadLex entity,Radlex descriptor,composition descriptor,calcified,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,composition descriptor,ossified,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,composition descriptor,simple,,,,,,,,1,0
+19RadLex entity,Radlex descriptor,composition descriptor,complex,,,,,,,,1,0
+14RadLex entity,Radlex descriptor,quantity descriptor,single,,,,,,,,1,0
+30RadLex entity,Radlex descriptor,location descriptor,laterality,bilateral,,,,,,,1,0
+43RadLex entity,Radlex descriptor,size descriptor,small,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,generalized descriptor,medium,,,,,,,,1,0
+33RadLex entity,Radlex descriptor,size descriptor,large,,,,,,,,1,0
+13RadLex entity,Radlex descriptor,size descriptor,giant,,,,,,,,1,0
+9RadLex entity,Radlex descriptor,size descriptor,dilated,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,size descriptor,enlarged,,,,,,,,1,0
+9RadLex entity,Radlex descriptor,imaging observation descriptor,visibility descriptor,prominent,,,,,,,1,0
+1RadLex entity,Radlex descriptor,size descriptor,widened,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,round,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,irregular,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,imaging observation descriptor,distribution pattern,linear,,,,,,,1,0
+22RadLex entity,Radlex descriptor,location descriptor,anterior,,,,,,,,1,0
+15RadLex entity,Radlex descriptor,location descriptor,posterior,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,location descriptor,medial,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,location descriptor,superior,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,location descriptor,inferior,,,,,,,,1,0
+18RadLex entity,Radlex descriptor,location descriptor,laterality,left,,,,,,,1,0
+35RadLex entity,Radlex descriptor,location descriptor,laterality,right,,,,,,,1,0
+4RadLex entity,Radlex descriptor,location descriptor,midline,,,,,,,,1,0
+7RadLex entity,Radlex descriptor,location descriptor,central,,,,,,,,1,0
+9RadLex entity,Radlex descriptor,location descriptor,peripheral,,,,,,,,1,0
+19RadLex entity,Radlex descriptor,location descriptor,proximal,,,,,,,,1,0
+17RadLex entity,Radlex descriptor,location descriptor,distal,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,location descriptor,caudal,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,location descriptor,superficial,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,location descriptor,displaced,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,anatomically-related descriptor,ectopic,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,location descriptor,inverted,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,dorsal,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,ventral,,,,,,,,1,0
+20RadLex entity,Radlex descriptor,location descriptor,adjacent,,,,,,,,1,0
+10RadLex entity,Radlex descriptor,orientation descriptor,vertical,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,orientation descriptor,transverse,,,,,,,,1,0
+11RadLex entity,Radlex descriptor,orientation descriptor,radial,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,orientation descriptor,concentric,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,orientation descriptor,eccentric,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,orientation descriptor,sagittal,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,orientation descriptor,coronal,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,morphologic descriptor,aerated,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,bulky,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,morphologic descriptor,fatty,,,,,,,,1,0
+39RadLex entity,Radlex descriptor,morphologic descriptor,fibrous,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,morphologic descriptor,flattened,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,morphologic descriptor,fusiform,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,morphologic descriptor,lacunar,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,morphologic descriptor,mixed,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,morphologic descriptor,multilocular,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,narrowed,,,,,,,,1,0
+8RadLex entity,Radlex descriptor,morphologic descriptor,obstructed,,,,,,,,1,0
+7RadLex entity,Radlex descriptor,morphologic descriptor,patent,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,patulous,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,morphologic descriptor,pleomorphic,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,punctate,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,physiological condition descriptor,ruptured,,,,,,,,1,0
+4RadLex entity,Radlex descriptor,morphologic descriptor,sclerosing,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,shallow,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,morphologic descriptor,sharp,,,,,,,,1,0
+2RadLex entity,Radlex descriptor,morphologic descriptor,tethered,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,morphologic descriptor,thickened,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,unilocular,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,motion descriptor,sliding,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,orientation descriptor,ascending,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,orientation descriptor,descending,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,imaging observation descriptor,radiopacity,radiopaque,,,,,,,1,0
+2RadLex entity,Radlex descriptor,density descriptor,hypodense,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,density descriptor,high density,hyperdense,,,,,,,1,0
+1RadLex entity,Radlex descriptor,uniformity descriptor,homogeneous,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,uniformity descriptor,heterogeneous,,,,,,,,1,0
+1RadLex entity,anatomical entity,material anatomical entity,anatomical structure,body region,musculoskeletal region,bone region,physis,,,,1,0
+1RadLex entity,Radlex descriptor,morphologic descriptor,long,,,,,,,,1,0
+12RadLex entity,Radlex descriptor,morphologic descriptor,tubular,,,,,,,,1,0
+3RadLex entity,Radlex descriptor,anatomically-related descriptor,intramural,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,intraperitoneal,,,,,,,,1,0
+1RadLex entity,Radlex descriptor,anatomically-related descriptor,extraperitoneal,,,,,,,,1,0
+5RadLex entity,Radlex descriptor,anatomically-related descriptor,interstitial,,,,,,,,1,0
